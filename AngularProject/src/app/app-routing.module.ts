@@ -5,7 +5,7 @@ import { SecondComponent } from './second/second.component';
 
 const routes: Routes = [{ path: 'first', component: FirstComponent },
 { path: 'second', component: SecondComponent },
-{ path: '', redirectTo: '/main-actions', pathMatch: 'full' }];
+{ path: '', redirectTo: '/first', pathMatch: 'full' }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
